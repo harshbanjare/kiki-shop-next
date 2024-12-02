@@ -15,9 +15,40 @@ const Footer = () => {
                 className="h-12 w-auto"
               />
             </Link>
-            <p className="text-zinc-400 text-sm">
+            <p className="text-zinc-400 text-sm mb-6">
               Celebrating the beauty of every shade
             </p>
+            
+            {/* Added Contact Section */}
+            <div className="text-sm space-y-4">
+              <h3 className="text-lg font-semibold relative inline-block group">
+                Contact
+                <span className="absolute -bottom-1 left-0 w-1/2 h-0.5 bg-[#E4AA81] transform origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+              </h3>
+              <p className="text-zinc-400 font-medium">
+                Need help? Our Kiki Beauty Team is here for you!
+              </p>
+              <div className="space-y-2">
+                <div className="flex items-center text-zinc-400 group">
+                  <span className="min-w-[80px]">Call us at:</span>
+                  <a 
+                    href="tel:+917610665533" 
+                    className="hover:text-[#E4AA81] transition-colors duration-300 group-hover:translate-x-1 transform transition-transform"
+                  >
+                    +91-7610665533
+                  </a>
+                </div>
+                <div className="flex items-center text-zinc-400 group">
+                  <span className="min-w-[80px]">Email us at:</span>
+                  <a 
+                    href="mailto:hello@kikibeauty.in"
+                    className="hover:text-[#E4AA81] transition-colors duration-300 group-hover:translate-x-1 transform transition-transform"
+                  >
+                    hello@kikibeauty.in
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Navigation Links */}
