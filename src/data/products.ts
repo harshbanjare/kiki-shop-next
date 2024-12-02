@@ -274,7 +274,7 @@ export const products: Product[] = [
     id: 2,
     name: "Fade and Flaunt Unfiltered Concealer",
     description:
-      "INSTANT PHOTO-SOFT COVERAGE FOR ALL. LONGWEAR, LIGHT AS AIR, CREASE PROOF.",
+      "Instant photo-soft coverage for all. Longwear, light as air, crease proof.",
     shortDescription:
       "Whether you're covering up last night's stories or today's dark circles, this buildable concealer is your secret weapon for a natural, unfiltered look that lasts all day.",
     price: 699,
