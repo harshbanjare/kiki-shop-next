@@ -54,7 +54,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
         <div className="p-6 flex flex-col flex-grow">
           <div className="mb-4 flex-grow">
-            <h3 className="text-lg font-semibold mb-2 line-clamp-2 h-12 overflow-hidden">
+            <h3 className="text-lg font-semibold mb-2 line-clamp-2 h-14 overflow-hidden">
               {name}
             </h3>
             <p className="text-gray-600 text-sm line-clamp-2 mb-2 h-10 overflow-hidden">
