@@ -97,7 +97,7 @@ const BlogPage: React.FC = () => {
             {relatedBlogs.map((relatedBlog) => (
               <Link
                 key={relatedBlog.id}
-                href={`/blog/${relatedBlog.id}`}
+                href={`/blogs/${relatedBlog.id}`}
                 className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="flex items-center">
