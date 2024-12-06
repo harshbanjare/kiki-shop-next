@@ -19,7 +19,6 @@ const sanitizeInput = (input: string): string => {
   return input.replace(/[<>]/g, "").trim();
 };
 
-// Add these functions before the component
 const fetchPinCodeDetails = async (
   pinCode: string
 ): Promise<PinCodeResponse> => {
@@ -30,10 +29,8 @@ const fetchPinCodeDetails = async (
   return data[0];
 };
 
-// Add this helper function near the top of the file
 const isVideo = (url: string) => url.toLowerCase().endsWith(".mp4");
 
-// Update the VideoCard component with an enhanced design
 const VideoCard = ({
   video,
   onClick,
@@ -86,7 +83,6 @@ const VideoCard = ({
   </button>
 );
 
-// Update the VideoPlayer component with better hover states and loading
 const VideoPlayer = ({ src }: { src: string }) => {
   const [isPlaying, setIsPlaying] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
